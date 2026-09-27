@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginBottom="15dp"
+
+    app:cardCornerRadius="20dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!-- Event Image -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/event_booking_app"
+
+                android:contentDescription="Event image" />
+
+
+            <!-- Dark Overlay -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="#550F172A" />
+
+
+            <!-- Admin Label -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+
+                android:gravity="center"
+
+                android:paddingStart="13dp"
+                android:paddingEnd="13dp"
+
+                android:text="ADMIN EVENT"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:textStyle="bold"
+
+                android:background="#CC2563EB" />
+
+        </FrameLayout>
+
+
+        <!-- Content -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            android:padding="17dp">
+
+
+            <!-- Event Name -->
+
+            <TextView
+                android:id="@+id/txtEventName"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Tech Fest 2026"
+
+                android:textColor="#0F172A"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+
+            <!-- Date -->
+
+            <TextView
+                android:id="@+id/txtDate"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="9dp"
+
+                android:text="Date - 03 Sep 2026"
+
+                android:textColor="#64748B"
+                android:textSize="12sp" />
+
+
+            <!-- Location -->
+
+            <TextView
+                android:id="@+id/txtLocation"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+
+                android:text="Location - Colombo"
+
+                android:textColor="#64748B"
+                android:textSize="12sp" />
+
+
+            <!-- Description -->
+
+            <TextView
+                android:id="@+id/txtDescription"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="9dp"
+
+                android:maxLines="2"
+
+                android:text="Event description"
+
+                android:textColor="#475569"
+                android:textSize="12sp" />
+
+
+            <!-- Divider -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+
+                android:layout_marginTop="14dp"
+
+                android:background="#E2E8F0" />
+
+
+            <!-- Delete Button -->
+
+            <Button
+                android:id="@+id/btnDeleteEvent"
+
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+
+                android:layout_marginTop="13dp"
+
+                android:text="Delete Event"
+
+                android:textAllCaps="false"
+
+                android:textColor="#B91C1C"
+                android:textSize="13sp"
+                android:textStyle="bold"
+
+                android:backgroundTint="#FEE2E2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

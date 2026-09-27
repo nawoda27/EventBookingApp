@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+
+        <!-- Top Section -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EVENT BOOKING"
+                    android:textColor="#2563EB"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.1" />
+
+                <TextView
+                    android:id="@+id/txtEventName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Tech Fest 2026"
+                    android:textColor="#0F172A"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <!-- Status -->
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:text="Pending"
+                android:textColor="#92400E"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:background="#FEF3C7" />
+
+        </LinearLayout>
+
+
+        <!-- Divider -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#E2E8F0" />
+
+
+        <!-- Booking Date -->
+
+        <TextView
+            android:id="@+id/txtBookingDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Booking Date: 03 Sep 2026"
+            android:textColor="#475569"
+            android:textSize="13sp" />
+
+
+        <!-- Booking ID -->
+
+        <TextView
+            android:id="@+id/txtBookingId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Booking ID: XXXXX"
+            android:textColor="#94A3B8"
+            android:textSize="11sp" />
+
+
+        <!-- Cancel Button -->
+
+        <Button
+            android:id="@+id/btnCancelBooking"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#FEE2E2"
+            android:text="Cancel Booking"
+            android:textAllCaps="false"
+            android:textColor="#B91C1C"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

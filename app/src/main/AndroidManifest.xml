@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <application
+
+        android:allowBackup="true"
+
+        android:icon="@mipmap/ic_launcher"
+
+        android:label="EventBookingApp"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+
+        android:supportsRtl="true"
+
+        android:theme="@style/Theme.EventBookingApp">
+
+
+
+        <!-- Login Screen -->
+
+        <activity
+
+            android:name=".LoginActivity"
+
+            android:exported="true">
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+
+        </activity>
+
+
+
+
+
+        <!-- Register -->
+
+        <activity
+
+            android:name=".RegisterActivity"
+
+            android:exported="false" />
+
+
+
+
+
+        <!-- User Home -->
+
+        <activity
+
+            android:name=".HomeActivity"
+
+            android:exported="false" />
+
+
+
+
+
+        <!-- Admin Dashboard -->
+
+        <activity
+
+            android:name=".AdminDashboardActivity"
+
+            android:exported="false" />
+
+
+
+
+
+        <!-- Manage Users -->
+
+        <activity
+
+            android:name=".ManageUsersActivity"
+
+            android:exported="false" />
+
+
+
+
+
+        <!-- Manage Events -->
+
+        <activity
+
+            android:name=".ManageEventsActivity"
+
+            android:exported="false" />
+
+
+
+
+
+        <!-- Create Event -->
+
+        <activity
+
+            android:name=".CreateEventActivity"
+
+            android:exported="false" />
+
+
+
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+
+        <!-- User View Events -->
+
+        <activity
+
+            android:name=".EventsActivity"
+
+            android:exported="false" />
+
+
+
+
+
+        <!-- User Booking -->
+
+        <activity
+
+            android:name=".BookingActivity"
+
+            android:exported="false" />
+
+
+
+
+
+        <!-- User My Bookings -->
+
+        <activity
+
+            android:name=".MyBookingsActivity"
+
+            android:exported="false" />
+
+
+
+
+
+        <!-- Admin Manage Bookings -->
+
+        <activity
+
+            android:name=".ManageBookingsActivity"
+
+            android:exported="false"
+
+            android:windowSoftInputMode="adjustResize" />
+
+
+
+
+
+        <!-- User Notifications -->
+
+        <activity
+
+            android:name=".NotificationsActivity"
+
+            android:exported="false" />
+
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+
+
+    </application>
+
+
+</manifest>

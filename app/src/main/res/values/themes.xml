@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.EventBookingApp" parent="Theme.Material3.Light.NoActionBar">
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+    </style>
+
+    <style name="Theme.EventBookingApp" parent="Base.Theme.EventBookingApp" />
+
+</resources>

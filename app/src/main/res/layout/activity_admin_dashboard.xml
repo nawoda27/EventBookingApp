@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FB"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="28dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#0B1220"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp">
+
+            <!-- TOP ROW -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:gravity="center"
+                    android:background="#1E40AF">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:textColor="#FFFFFF"
+                        android:textSize="21sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ADMINISTRATOR"
+                        android:textColor="#38BDF8"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.18"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Control Center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADMIN"
+                    android:textColor="#BFDBFE"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:background="#172554"/>
+
+            </LinearLayout>
+
+            <!-- TITLE -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Admin Dashboard"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Welcome back. Manage your event booking platform from one place."
+                android:textColor="#94A3B8"
+                android:textSize="13sp"
+                android:lineSpacingExtra="2dp"/>
+
+        </LinearLayout>
+
+
+        <!-- ===================================================== -->
+        <!-- WELCOME CARD -->
+        <!-- ===================================================== -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="18dp"
+            app:cardCornerRadius="22dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#2563EB">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+
+                <LinearLayout
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"
+                    android:gravity="center"
+                    android:background="#FFFFFF">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:textColor="#2563EB"
+                        android:textSize="23sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome back, Admin"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Keep your platform organized and up to date."
+                        android:textColor="#DBEAFE"
+                        android:textSize="11sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="11dp">
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="20dp"
+                android:background="#2563EB"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:text="MANAGEMENT"
+                android:textColor="#334155"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.15"/>
+
+        </LinearLayout>
+
+
+        <!-- ===================================================== -->
+        <!-- MANAGE EVENTS -->
+        <!-- ===================================================== -->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardManageEvents"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="13dp"
+            app:cardCornerRadius="21dp"
+            app:cardElevation="3dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#2563EB"/>
+
+                <LinearLayout
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="17dp"
+                    android:gravity="center"
+                    android:background="#DBEAFE">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E"
+                        android:textColor="#2563EB"
+                        android:textSize="22sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Manage Events"
+                        android:textColor="#0F172A"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Create, update and manage events"
+                        android:textColor="#64748B"
+                        android:textSize="11sp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_marginEnd="16dp"
+                    android:text="›"
+                    android:textColor="#2563EB"
+                    android:textSize="28sp"
+                    android:background="#EFF6FF"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- ===================================================== -->
+        <!-- MANAGE BOOKINGS -->
+        <!-- ===================================================== -->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardManageBookings"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="13dp"
+            app:cardCornerRadius="21dp"
+            app:cardElevation="3dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#0284C7"/>
+
+                <LinearLayout
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="17dp"
+                    android:gravity="center"
+                    android:background="#E0F2FE">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:textColor="#0284C7"
+                        android:textSize="22sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Manage Bookings"
+                        android:textColor="#0F172A"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Review and approve customer bookings"
+                        android:textColor="#64748B"
+                        android:textSize="11sp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_marginEnd="16dp"
+                    android:text="›"
+                    android:textColor="#0284C7"
+                    android:textSize="28sp"
+                    android:background="#F0F9FF"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- ===================================================== -->
+        <!-- MANAGE USERS -->
+        <!-- ===================================================== -->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardManageUsers"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="13dp"
+            app:cardCornerRadius="21dp"
+            app:cardElevation="3dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#7C3AED"/>
+
+                <LinearLayout
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="17dp"
+                    android:gravity="center"
+                    android:background="#EDE9FE">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="U"
+                        android:textColor="#7C3AED"
+                        android:textSize="22sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Manage Users"
+                        android:textColor="#0F172A"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="View and manage registered users"
+                        android:textColor="#64748B"
+                        android:textSize="11sp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_marginEnd="16dp"
+                    android:text="›"
+                    android:textColor="#7C3AED"
+                    android:textSize="28sp"
+                    android:background="#F5F3FF"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- ===================================================== -->
+        <!-- LOGOUT -->
+        <!-- ===================================================== -->
+
+        <Button
+            android:id="@+id/btnLogoutAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="Sign Out"
+            android:textAllCaps="false"
+            android:textColor="#DC2626"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:elevation="2dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
